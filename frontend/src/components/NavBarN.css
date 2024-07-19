@@ -1,0 +1,37 @@
+/* Overall navbar styles */
+.navbar-dark {
+  background-color: #333740; /* Darker shade for a sleek look */
+  border-bottom: 3px solid #4a90e2; /* Subtle blue accent line */
+  padding: 0.5rem 1rem; /* Consistent padding around */
+}
+
+/* Brand styling */
+.brand {
+  color: #4a90e2 !important; /* Soft blue color for brand */
+  font-weight: bold;
+  font-size: 1.5rem; /* Make brand name larger and noticeable */
+  transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+}
+
+.brand:hover {
+  color: #ffffff !important; /* White color on hover for the brand */
+}
+
+/* Link customization */
+.nav-link-custom {
+  color: #ddd !important; /* Light grey for readability */
+  font-weight: 500;
+  margin-right: 20px; /* Increased spacing between navigation links */
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out; /* Smooth transitions */
+}
+
+.nav-link-custom:hover {
+  color: #4a90e2 !important; /* Highlight color on hover */
+  transform: scale(1.05); /* Slight enlargement on hover for a dynamic effect */
+}
+
+/* Active link styling */
+.nav-link-custom.active {
+  color: #4a90e2 !important; /* Highlight active link with the same blue */
+  border-bottom: 3px solid #4a90e2; /* Underline active link for emphasis */
+}
